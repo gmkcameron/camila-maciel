@@ -4,7 +4,7 @@ Esse é um Projeto Web Responsivo de um site para uma Clínica de Fisioterapia n
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido usando um template gratuito do site https://html5up.net/ e foram usadas as seguintes tecnologias:
+Esse projeto foi desenvolvido usando um template gratuito do site https://html5up.net/, sendo usadas as seguintes tecnologias:
 
 - HTML
 - CSS
