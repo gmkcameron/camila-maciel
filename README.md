@@ -1,11 +1,13 @@
-🖥️ Projeto
+## 🖥️ Projeto
+
 Esse é um Projeto Web Responsivo de um site para uma Clínica de Fisioterapia no Rio de Janeiro.
 
-🚀 Tecnologias
+## 🚀 Tecnologias
+
 Esse projeto foi desenvolvido usando um template gratuito do site https://html5up.net/ e foram usadas as seguintes tecnologias:
 
-HTML
-CSS
-SCSS
-JavaScript
-Git e Github
+- HTML
+- CSS
+- SCSS
+- JavaScript
+- Git e Github
