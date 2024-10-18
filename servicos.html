@@ -55,85 +55,100 @@
 
 				<!-- Wrapper -->
                     
-					<section id="one" class="wrapper spotlight style2">
-						<div class="inner">
-							<div class="content">
-								<h2 class="major">O que oferecemos</h2>
-							</div>
+				<section id="one" class="wrapper spotlight style2">
+					<div class="inner">
+						<div class="content">
+							<h2 class="major">O que oferecemos</h2>
 						</div>
-					</section>
-					<section>
-						<p>&nbsp;</p>
-						<style>
+					</div>
+				</section>
+				<section>
+					<p>&nbsp;</p>
+					<style>
+						.service-image {
+							width: 100%; /* A largura da imagem ocupará 100% do espaço disponível */
+							height: 150px; /* Altura fixa para manter o tamanho igual */
+							object-fit: cover; /* As imagens preenchem o espaço sem distorção */
+							display: block;
+							margin: 0 auto;
+							background-color: blue; /* Cor de fundo azul */
+						}
+				
+						@media (min-width: 768px) {
 							.service-image {
-								width: auto;
-								max-width: auto;
-								height: 80px;
-								display: block;
-								margin: 0 auto;
-								background-color: blue;
+								height: 180px; /* Ajusta a altura para telas maiores */
 							}
-						</style>
-						<div class="inner" style="padding-left: 30px; padding-right: 30px;"> <!-- Espaçamento nas bordas laterais -->
-							<div class="row gtr-uniform">
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/Acupuntura.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">Acupuntura</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/cm_slim.jpg" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">CMSlim</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/fisio-ortopedica.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">Fisioterapia Ortopédica</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/fisio-pelvica.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">Fisioterapia Pélvica</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/fisio_pos_parto.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">Fisioterapia Pós Parto</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/osteopatia.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">Osteopatia</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/rpg.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">RPG</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/tecar.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">TECAR Terapia</p>
-								</div>
-								<div class="col-4">
-									<span class="image fit">
-										<img src="images/ondas-choque.png" alt="" class="service-image" />
-									</span>
-									<p style="text-align: center; font-size: 16px; margin-top: -30px;">Terapia de Ondas de Choque</p>
-									<p>&nbsp;</p>
-								</div>
+						}
+				
+						@media (min-width: 1024px) {
+							.service-image {
+								height: 200px; /* Outra adaptação para telas muito grandes */
+							}
+						}
+					</style>
+				
+					<div class="inner" style="padding-left: 30px; padding-right: 30px;">
+						<div class="row gtr-uniform">
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/Acupuntura.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">Acupuntura</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/cm_slim.jpg" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">CMSlim</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/fisio-ortopedica.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">Fisioterapia Ortopédica</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/fisio-pelvica.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">Fisioterapia Pélvica</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/fisio_pos_parto.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">Fisioterapia Pós Parto</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/osteopatia.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">Osteopatia</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/rpg.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">RPG</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/tecar.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">TECAR Terapia</p>
+							</div>
+							<div class="col-4">
+								<span class="image fit">
+									<img src="images/ondas-choque.png" alt="" class="service-image" />
+								</span>
+								<p style="text-align: center; font-size: 16px; margin-top: -30px;">Terapia de Ondas de Choque</p>
+								<p>&nbsp;</p>
 							</div>
 						</div>
-					</section>
+					</div>
+				</section>
+				
+
 					
 					
 
